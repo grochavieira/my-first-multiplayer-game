@@ -1,0 +1,27 @@
+{
+  "name": "multiplayerGame",
+  "version": "1.0.0",
+  "description": "Um jogo multiplayer utilizando Javascript + Node.js + Socket.io",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grochavieira/MyFirstMultiplayerGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grochavieira/MyFirstMultiplayerGame/issues"
+  },
+  "homepage": "https://github.com/grochavieira/MyFirstMultiplayerGame#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
